@@ -12,6 +12,7 @@
 		491714991FE12BFB0019BD07 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 491714971FE12BFB0019BD07 /* Main.storyboard */; };
 		4917149B1FE12BFB0019BD07 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4917149A1FE12BFB0019BD07 /* Assets.xcassets */; };
 		4917149E1FE12BFB0019BD07 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4917149C1FE12BFB0019BD07 /* LaunchScreen.storyboard */; };
+		491714A61FE12C140019BD07 /* KCountDownTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491714A51FE12C140019BD07 /* KCountDownTimer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		4917149A1FE12BFB0019BD07 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4917149D1FE12BFB0019BD07 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4917149F1FE12BFB0019BD07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		491714A51FE12C140019BD07 /* KCountDownTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KCountDownTimer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				4917149A1FE12BFB0019BD07 /* Assets.xcassets */,
 				4917149C1FE12BFB0019BD07 /* LaunchScreen.storyboard */,
 				4917149F1FE12BFB0019BD07 /* Info.plist */,
+				491714A51FE12C140019BD07 /* KCountDownTimer.swift */,
 			);
 			path = KCountDownTimer;
 			sourceTree = "<group>";
@@ -136,6 +139,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				491714A61FE12C140019BD07 /* KCountDownTimer.swift in Sources */,
 				491714961FE12BFB0019BD07 /* ViewController.swift in Sources */,
 				491714941FE12BFB0019BD07 /* AppDelegate.swift in Sources */,
 			);
